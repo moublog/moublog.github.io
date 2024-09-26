@@ -44,6 +44,21 @@ main {
     text-align: center;
     margin-top: 50px;
 }
+.colored {
+    animation: color-change 3s infinite;
+  }
+
+  @keyframes color-change {
+    0% {
+      color: rgb(255, 0, 0);
+    }
+    50% {
+      color: rgb(0, 255, 0);
+    }
+    100% {
+      color: rgb(0, 0, 255);
+    }
+  }
 .blog-posts {
     display: flex;
     flex-wrap: wrap;
