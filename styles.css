@@ -33,7 +33,17 @@ main {
     align-items: center;
     padding: 2em;
 }
-
+.glow {
+    color: #fff; /* base text color */
+    text-shadow: 
+        0 0 10px #ff0000, /* red */
+        0 0 20px #0ff000, /* green */
+        0 0 30px #0000ff; /* blue */
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
 .blog-posts {
     display: flex;
     flex-wrap: wrap;
